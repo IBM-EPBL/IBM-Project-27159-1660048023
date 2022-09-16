@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   body {
+    
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .full_size {
+    width: 57.5%;
+    max-width: 1000px;
+    min-height: 100px;
+    background-color: rgb(255, 229, 169);
+    margin: 30px;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+   }
+   .L-side {
+    position: initial;
+    background-color: rgb(255, 229, 169);
+    padding: 20px;
+   
+   }
+   .R-side {
+    position: initial;
+    background-color: rgb(255, 229, 169);
+    padding: 20px;
+   
+   }
+   .image_logo{
+    margin: 0px 125px;
+   }
+    .Contact, .career_obj,.Tech-Skills, .Soft-Skills,.Achieve,.certificate,.Language, .title,
+     .education, .project {
+    margin-bottom: 30px;
+   }
+   .h2 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 229, 169);
+   }

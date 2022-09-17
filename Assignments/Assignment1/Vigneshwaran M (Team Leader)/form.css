@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 1170px;
+    margin-left: 120px;
+    
+}
+
+header{
+   
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    
+   
+}
+
+
+section .contentBx{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 25%;
+    width: 50%;
+    height: 100%;
+}
+
+section .contentBx .formBx{
+    width: 60%;
+    
+}
+
+
+section .contentBx .formBx h2{
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 200px;
+    font-size: 25px;
+    border-bottom: 4px solid rgb(251, 186, 20);
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx{
+    margin-bottom: 20px;
+
+}
+
+
+section .contentBx .formBx .inputBx span{
+    margin-bottom: 5px;
+    font-size: 18x;    
+    display: inline-block;
+    margin-left: 5px;
+    color:black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px; 
+
+}
+
+section .contentBx .formBx .inputBx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:rgb(0, 0, 0);
+    background: white;
+    border-radius: 30px;
+   
+}
+
+section .contentBx .formBx .inputBx input a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    margin-left: 225px;
+    background: rgb(255, 191, 0);
+    color:black;
+    outline: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]{
+    margin-left: 25px;
+    background: rgb(255, 191, 0);
+    color:black;
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+    background: rgb(255, 210, 96);
+}
+
+
+
+
+#head{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    margin-left: 250px;
+    text-align: center; 
+   
+    
+  }

@@ -15,25 +15,28 @@ This webpage contains Short Introduction `about Me`, `Professional Skills`, `Per
 The Below screenshot shows My Resume Webpage which contain information about me.
 It also have `Download CV` and `Hire Me` button.
 
-![image](https://drive.google.com/file/d/1qhGUK3wpzwSTCUdSLeIXvZgQiV_ahztS/view?usp=sharing)
+![Screenshot (126)](https://user-images.githubusercontent.com/103897625/190868455-79f84539-148c-4ce0-9ef9-ba4537c36401.png)
+
 
 ### Resume Download Page
-The Below screenshot shows My Resume pdf download where Recruiter can download my resume.
+The Below screenshot shows Resume pdf download where Recruiter can download my resume.
 where it is already uploaded in My Google Drive account. 
-This will redirect when recruiter  click `Download CV` button.
+This will redirect him when recruiter  click `Download CV` button.
 
-![image](https://drive.google.com/file/d/1Llw_ZjtOgET2GysOStWo6HVdmaM8pOwB/view?usp=sharing)
+![Screenshot (127)](https://user-images.githubusercontent.com/103897625/190868477-b24744a0-e51e-4c57-876b-2b83d51104ba.png)
+
 
 ### Form Page
 The Below screenshot shows form page where Recruiter/User can enter their detail, While they have vacancy in her company
-This will redirect when recruiter  click `Hire Me` button.
+This will redirect him when recruiter  click `Hire Me` button.
 
-![image](https://drive.google.com/file/d/15Lg9KvucqDXxPgagTKN7lyvTam-v3ows/view?usp=sharing)
+![Screenshot (128)](https://user-images.githubusercontent.com/103897625/190868503-5697c9e3-e53e-42c3-8fea-cbc406caff0a.png)
+
 
 ### Form Page with fields alert
-The Below screenshot shows form page with fields alert. This will occur when Recruiter/User missed any fields,
+The Below screenshot shows form page with fields alert. This will occur when Recruiter/User missed any fields.
 
-![image](https://drive.google.com/file/d/1GivKiwLPtZJgyi8MyMRxv89fdq6LnkRC/view?usp=sharing)
+![Screenshot (129)](https://user-images.githubusercontent.com/103897625/190868521-b55b5291-a8a6-458b-81a3-3b673e24b826.png)
 
 
 ## Acknowledgements

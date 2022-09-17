@@ -49,7 +49,7 @@ The Below screenshot shows form page with fields alert. This will occur when Rec
 
 ## Deployment 
 
-Download and Run Our Project source code, by clicking Code icon in our Respository which will popup and show Zip file , git clone and Much more.
+Download and Run Our Project source code, by clicking Code icon in our Repository which will popup and show Zip file , git clone and Much more.
 Then you can deploy that source code in Visual studio (or) copy the below commands and run it in Terminal or Cmd. 
 
 ```

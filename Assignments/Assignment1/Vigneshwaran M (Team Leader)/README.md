@@ -19,7 +19,7 @@ It also have `Download CV` and `Hire Me` button.
 
 
 ### Resume Download Page
-The Below screenshot shows Resume pdf download where Recruiter can download my resume.
+The Below screenshot shows Resume pdf download pagewhere Recruiter can download my resume.
 where it is already uploaded in My Google Drive account. 
 This will redirect him when recruiter  click `Download CV` button.
 

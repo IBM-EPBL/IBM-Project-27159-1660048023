@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %}
+{{title}}
+{% endblock title %}
+{% block content %}
+<br>
+<div class="formuwu">
+  <div class="form">
+    <form method="post">
+      <div class="form-group">
+        <label for="exampleInputUsername">Username</label>
+        <input type="text" class="form-control" name="username" id="username" aria-describedby="usernameHelp"
+          placeholder="Enter Username">
+        <small id="usernameHelp" class="form-text text-muted">We'll never share your username with anyone else.</small>
+      </div>
+      <div class="form-group">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password" class="form-control" name="password" id="password" placeholder="Password">
+      </div>
+      <br>
+      {% if error %}
+      <div class="alert alert-danger">
+        {{error}}
+      </div>
+      {% endif %}
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+</div>
+
+{% endblock content %}

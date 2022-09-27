@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+
+.wrapper{
+    width: 1170px;
+    margin-left: 120px;
+    
+}
+
+header{
+   
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    
+   
+}
+
+
+  .nav-area li{
+    display: inline-flex;
+   float: right;
+   margin: 5px;
+}
+
+.nav-area li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 25px;
+    margin-top: 15px;
+    font-family:'Arial';
+    font-size: large;
+    font-weight: bolder;
+    background: rgb(0, 0, 0);
+    
+}
+
+.nav-area li a:hover{
+    background: rgb(0, 255, 51);
+    color:  rgb(0, 0, 0) ;
+    
+   
+}
+
+
+section .container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 15%;
+    background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+   background-repeat: no-repeat;
+    width: 40%;
+    height: 35%;
+    padding: 20px 20px;
+    display: flex;
+   
+}
+section .container .about li {
+    color:black;
+    font-weight: 600;
+    font-size: 1.5em;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: none;
+    font-size: 15px;
+    display: flex;
+    letter-spacing: 1px;
+    
+}
+section .container .about h2 {
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: none;
+   
+    
+    
+}
+
+    
+    
+    
+

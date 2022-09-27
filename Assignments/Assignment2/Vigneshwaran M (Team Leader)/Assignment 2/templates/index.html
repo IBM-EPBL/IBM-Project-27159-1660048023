@@ -1,0 +1,28 @@
+  {% extends 'base.html' %}
+
+  {% block head %}<link rel="stylesheet" href="/static/css/index.css"> {% endblock %}
+
+   {% block content %}
+
+    <body style="background:rgb(252, 234, 93);" height="40%"width="80%" >
+        <header>
+            <div class="wrapper">
+               
+                
+                <ul class="nav-area">
+                <li><a href="home">Home</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="signup">signup</a></li>
+                <li><a href="login">Login</a></li>
+                    
+                </ul>
+            </div>
+            <div class="welcome-txt">
+                <h1>Welcome to Home page</h1>
+                <a id="about" href="about">About Us</a>
+                <a id="sign" href="signup">SignUp</a>
+            </div>
+        </header>
+    </body>
+    {% endblock %}
+   

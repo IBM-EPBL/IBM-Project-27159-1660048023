@@ -1,0 +1,53 @@
+    {% extends 'base.html' %}
+
+    {% block head %} <link rel="stylesheet" href="/static/css/login.css"> {% endblock %}
+
+      {% block content %}
+   <body style="background-color: rgb(252, 234, 93);" width="100px" >
+    <header>
+        <div class="wrapper">
+            <ul class="nav-area">
+                
+                <li><a href="signup">signup</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="about">About Us</a></li>
+                <li><a href="home">Home</a></li>
+                   
+               
+        <section>
+         <div class="contentBx">
+             <div class="card">
+         <div class="formBx">
+         
+        <h2>Login</h2>
+        <form action="/login" method="post">
+        
+         <div class="inputBx">
+             <span>Email address</span>
+             <input type="email" name="" placeholder="Enter your email address" required class="form-control">
+         </div>
+
+             <div class="inputBx">
+                 <span>Password</span>
+                 <input type="password" name="" placeholder="Enter password" required class="form-control">
+                </div>
+                 <div class="remember">
+                    <input type="checkbox" id="rem1" name="" value="">
+                    <label for="rem1">Remember me</label><br></div>
+
+               <div class="inputBx">
+                 <input type="submit" value="Signin" name="">
+             </div>
+             
+             <div class="inputBx">
+                <p>Don't have an account?<a href="signup">SignUp</a></p>
+            </div>
+         </form>
+           </div>
+         </div>
+         </div>
+        </section>
+    </header> 
+</body>
+
+{% endblock %}

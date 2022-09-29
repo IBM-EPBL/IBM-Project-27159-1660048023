@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% block title %}
+About
+{% endblock title %}
+{% block content %}
+<section>
+    <div class="container">
+  
+    <ul class="about">   
+        <h2>About Me</h2>   
+        <li>👋 Hi, I’m vigneshwaran M</li>
+        <li>👀 I’m interested in Networking and cybersecurity field aswellas I like to do coding.</li>
+        <li>🌱 I’m currently studying B.E, CSE in KLNCIT</li>
+        <li>💠 My Email ID : Vignesh510510@gmail.com</li>
+        <li>💁‍♂️ I updated My Resume here:<a href="/static/pdf/vigneshResume.pdf">vignesh Resume</a></li>
+    </ul>
+</div>
+</div>
+</section>
+<style>
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 234, 93);
+   
+   
+}
+section .container{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 8% 15%;
+    background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+   background-repeat: no-repeat;
+    width: 40%;
+    height: 35%;
+    padding: 20px 20px;
+    display: flex;
+   
+}
+section .container .about li {
+    color:black;
+    font-weight: 600;
+    font-size: 1.5em;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: none;
+    font-size: 15px;
+    display: flex;
+    letter-spacing: 1px;
+    
+}
+section .container .about h2 {
+    color:rgb(0, 0, 0);
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 15px;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: none;
+   
+    
+    
+}
+
+</style>
+
+<br>
+
+
+{% endblock content %}

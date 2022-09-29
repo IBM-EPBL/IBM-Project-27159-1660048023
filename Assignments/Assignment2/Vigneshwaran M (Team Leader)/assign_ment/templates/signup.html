@@ -1,0 +1,196 @@
+{% extends 'base.html' %}
+{% block title %}
+{{title}}
+{% endblock title %}
+{% block content %}
+<br>
+
+<section>
+  <div class="contentBx">
+      <div class="card">
+  <div class="formBx">
+  
+ <h2>SignUp</h2>
+ <form action="/signup" method="post">
+
+  <div class="inputBx">
+      <span>Name</span>
+      <input type="text" name="name" id="name" aria-describedby="helpId"placeholder="Enter your Name" required class="form-control">
+  </div>
+  <div class="inputBx">
+      <span>Username</span>
+      <input type="text" name="username" id="username" aria-describedby="helpId" placeholder="Enter username" required class="form-control">
+  </div>
+  <div class="inputBx">
+      <span>Email</span>
+      <input type="email" name="email" id="email" aria-describedby="emailHelpId"
+      placeholder="john34@mail.com" required class="form-control">
+  </div>
+
+      <div class="inputBx">
+          <span>Password</span>
+          <input type="password" name="password" id="password" placeholder="Password" required class="form-control">
+      </div>
+          <div class="remember">
+              <input type="checkbox" id="rem1" name="" value="">
+              <label for="rem1">I agree to the terms and conditions</label><br></div>
+        <div class="inputBx">
+          <input type="submit" value="submit" name="">
+      </div>
+  </form>
+    </div>
+  </div>
+  </div>
+ </section>
+
+ <style>
+  body{
+    margin: 0;
+    padding: 0;
+    background-color:  rgb(252, 234, 93);
+}
+.card {
+  
+  transition: 0.3s;
+  min-height: 500px;
+  min-width: 500px;
+  background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+  
+}
+
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+section .contentBx{
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 15%;
+    background: -webkit-linear-gradient(bottom, #2dbd6e, #a6f77b);
+   background-repeat: no-repeat;
+    width: 50%;
+   
+}
+
+
+section .contentBx .formBx{
+    width: 60%;
+    padding: 12px 20px;
+    margin: auto;
+
+   
+}
+
+
+section .contentBx .formBx h2{
+    color:black;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-left: 160px;
+    font-size: 25px;
+    border-bottom: 4px solid rgb(255, 214, 6);
+    display: inline-block;
+    letter-spacing: 1px;
+}
+
+section .contentBx .formBx .inputBx{
+    margin-bottom: 20px;
+
+}
+
+
+section .contentBx .formBx .inputBx span{
+    margin-bottom: 5px;
+    font-size: 18x;    
+    display: inline-block;
+    margin-left: 5px;
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px; 
+
+}
+
+section .contentBx .formBx .inputBx input{
+    width: 100%;
+    padding: 10px 20px;
+    outline: none;
+    font-weight: 400;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color:rgb(0, 0, 0);
+    background: white;
+    border-radius: 30px;
+   
+}
+
+section .contentBx .formBx .inputBx input a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    margin-left: 225px;
+    background: rgb(255, 191, 0);
+    color:black;
+    outline: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]{
+    margin-left: 25px;
+    background: rgb(255, 191, 0);
+    color:black;
+    outline: none;
+    border: none;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer; 
+}
+
+section .contentBx .formBx .inputBx input[type="submit"]:hover{
+    background: rgb(255, 210, 96);
+}
+
+
+
+
+#head{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 45px;
+    margin-left: 250px;
+    text-align: center; 
+   
+    
+  }
+  section .contentBx .formBx  .remember{
+   
+    color:rgb(0, 0, 0);
+    font-weight: 400;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 5px;
+}
+
+ </style>
+
+{% endblock content %}

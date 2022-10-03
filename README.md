@@ -11,4 +11,4 @@ __Team Size : 4__
 | ------------|---------------|              
 |Team member 1 :| VISHNU CHIDAMBARAM R|
 |Team member 2 :| KARTHIKEYAN M|
-|Team member 3 :| MATHEWAKASH P|
+|Team member 3 :| MATHEW AKASH P|

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(153, 9, 250);
+   
+}
+
+#head1{
+    background-color: rgb(9, 250, 33);
+   
+}
+
+#taj{
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+}
+
+#christ{
+    width: 200px;
+    height: 200px;
+    margin: 5%;
+  
+}
+#petra{
+    margin-top: 11%;
+    margin-left: 5%;
+    width: 500px;
+    margin-bottom: 3%;
+    
+}
+#rome{
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+}
+#chichen{
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+   
+}
+#great_wall{
+    margin-top: 11%;
+    margin-left: 5%;
+    width: 500px;
+    margin-bottom: 3%;
+   
+}
+#machu{
+    margin-top: 11%;
+    margin-left: 5%;
+    width: 500px;
+    margin-bottom: 1%;
+   
+}
+#thanjai_periya_kovil{
+    margin-top: 11%;
+    margin-left: 5%;
+    width: 500px;
+    margin-bottom: 3%;
+  
+}
+
+
+
+h2{
+    text-align: center;
+    font-family: Courier;
+    font-size: 30px;
+    margin: 2%;
+    background-color: rgb(9, 250, 33);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+h3{
+    text-align: center;
+    font-family: Courier;
+    font-size: 20px;
+    margin: 2%;
+    background-color: rgb(9, 250, 33);
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}

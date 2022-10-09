@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>wonders</title>
+       
+        <div id="head1"><hr><h2>8 wonders of the world </h2><hr></div>
+        <link rel="stylesheet" href="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/style.css">
+    </head>
+    <body>
+        
+        <div id="wonder">
+           <div id="taj"><h3>1. Taj Mahal, India</h3><img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/Taj-mahals.jpg"></div><br>
+           <div id="christ">  <h3>2. Christ the Redeemer, Rio de Janeiro</h3><img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/christ-the-redeemer.jpg"></div><br><br>
+           <div id="petra"><h3>3. Petra, Jordan</h3> <img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/petra.jpg"></div>
+           <div id="rome"><h3>4. Colosseum, Rome</h3> <img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/great-colosseum-rome-italy.jpg"></div><br>
+           <div id="chichen"> <h3>5. Chichen Itza, Mexico</h3><img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/chichen-itza-snake.jpg"></div>
+           <div id="great_wall"> <h3>6. Great Wall Of China</h3> <img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/great-walls.jpg"></div>
+           <div id="machu"><h3>7. Machu Picchu, Peru</h3><img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/Mountains_Peru_Ruins_Machu_Picchu.jpg"></div>
+           <div id="thanjai_periya_kovil"><h3>8. Thanjai Periya kovil (brihadeeswarar temple), India</h3><img src="https://assignment-3.s3.jp-tok.cloud-object-storage.appdomain.cloud/BrihadeeswararTemple.jpg"></div>
+        
+        </div>
+        <script>
+          window.watsonAssistantChatOptions = {
+            integrationID: "df70c1ef-da13-4ecf-937f-940f243d3d86", // The ID of this integration.
+            region: "jp-tok", // The region your integration is hosted in.
+            serviceInstanceID: "616b3629-960b-4da9-9d60-3b63268dd649", // The ID of your service instance.
+            onLoad: function(instance) { instance.render(); }
+          };
+          setTimeout(function(){
+            const t=document.createElement('script');
+            t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+          });
+        </script>
+    </body>
+</html>

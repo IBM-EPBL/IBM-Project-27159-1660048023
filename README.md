@@ -1,7 +1,11 @@
 # IBM-Project-27159-1660048023
-Skill / Job Recommender Application
 
-###  __`Team ID : PNT2022TMID52501`__
+|      **Project Name**     | Skill And Job Recommender |
+|:---------------------:|:------------------------------:|
+|         **Domain**        |  Cloud Application Development |
+|        **Team ID**        |  PNT2022TMID52501 |
+
+
 
 
 __Team Size : 4__

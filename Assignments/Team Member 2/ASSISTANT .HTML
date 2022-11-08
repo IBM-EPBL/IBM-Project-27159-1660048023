@@ -1,0 +1,26 @@
+<html>
+
+<head>
+    <title>
+        BIKE
+    </title>
+</head>
+
+<body>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "79a25311-0c9e-4ca2-8145-dc9b7aea551b", // The ID of this integration.
+          region: "au-syd", // The region your integration is hosted in.
+          serviceInstanceID: "2187d45e-a99f-4406-963e-85835148b6fd", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+</body>
+
+</html>

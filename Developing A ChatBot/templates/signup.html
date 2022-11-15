@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+
+{%  block head %}   <link rel="stylesheet" href="static/css/signup.css"> {% endblock %}
+
+{% block content %}
+
+
+  
+<body style="background-color: rgb(255, 204, 0);" height="40%"width="80%" >
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "1df8b62f-ee5c-42bb-9a2f-6edcb89d85f7", // The ID of this integration.
+          region: "jp-tok", // The region your integration is hosted in.
+          serviceInstanceID: "ee519db2-aba8-4373-a6a2-e4e6fea336d7", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script> 
+    <header>
+        <div class="wrapper">
+            <div class="logo">
+              <a  href="/"><img src="static/img/job_logo.png" alt=""  ></a>
+            </div>
+            
+             
+            <ul class="nav-area">
+                <li><a href="/">Home</a></li>
+                <li><a href="login">Login</a></li>
+                <li><a href="signup">Sign up</a></li>
+                
+            </ul>
+        </div>
+        
+           <section>
+            <div class="contentBx">
+                <div class="card">
+            <div class="formBx">
+            
+           <h2>SignUp</h2>
+           <form action="signup", method="POST">
+            <div class="inputBx">
+                <span>Name</span>
+                <input type="text" name="name" placeholder="Enter your name" required class="form-control">
+            </div>
+            <div class="inputBx">
+                <span>Email address</span>
+                <input type="email" name="email" placeholder="Enter Email address" required class="form-control">
+            </div>
+                <div class="inputBx">
+                    <span>Phone number</span>
+                    <input type="phone number" name="phone" placeholder="Enter phone number" required class="form-control">
+                </div>
+              
+                <div class="inputBx">
+                    <span>Password </span>
+                    <input type="password" name="password" placeholder="Enter Password" required class="form-control">
+                </div>
+                <div class="terms">
+                    <label><input type="checkbox" name="" required >By clicking, you agree to the Job Hunter user agreement, Privacy Policy, and Cookie Policy.</label>
+                </div>
+                <div class="inputBx">
+                    <input type="submit" value="Agree & Join" name="">
+                </div>
+                <div class="inputBx">
+                    <p>Already have an account?<a href="login">Login</a></p>
+                </div>
+            </form>
+        </div>
+      </div>
+      </div>
+     </section>
+       </header> 
+       
+       <div class="grid-container">
+        <div class="grid">
+            <img src="../static/img/33172-01-finishig-studies.gif" width="100px" height="100px">
+            <h5>Get your dream job within a week.</br>Gain on-demand skills.</h5></div>
+        <div class="grid">
+            <img src="../static/img/27425-train.gif" width="100px" height="100px">
+        <h5>Personalized Recommendation. </h5></div>
+        <div class="grid">
+            <img src="../static/img/75164-glurtr-anmation.gif" width="100px" height="100px">
+        <h5>Learn at your own pace, with lifetime access.</h5></div>    
+    </div>
+    
+       
+    <hr id="start">
+    <div class="job-sign">
+        <br><br>
+        <h1>Learn on-demain skills for a particular job</h1>
+        <button id="sign-center">Learn skills</button>
+       
+    </div>
+    <footer>
+           
+        <hr id="start">
+        <br>
+        <br>
+        <div class="intro">
+           
+       <h5>Copyrights &copy; 2022 Job Hunter.</h5>
+        <h5>Job Hunter is a Best Platform for Job seekers as well as Recruiters. It also provides learning resource
+        for users which might be simplified to improve reading and learning.</h5>
+        <h5>While using Job hunters, you agree to have read and accepted our terms of use, cookie and privacy policy.</h5> 
+      
+        <div class="logo-end">
+            <a  href="/"><img src="static/img/job_logo.png" alt=""  ></a>
+          </div>
+        <div class="s-media">
+           
+            <div class="s1">
+            <img src="../static/img/youtube1.png" width="35px" height="35px">
+            </div>
+            <div class="s2">
+            <img src="../static/img/instagram-logo.png"  width="33px" height="33px">
+            </div>
+            <div class="s3">
+            <img src="../static/img/facebook-logo.png" width="35px" height="35px">
+         </div>
+         </div>
+        <br>
+        <br>
+        <div class="contri">
+        <h4>Contributers:  Vigneshwaran M, Vishnu chidambaram R, Karthikeyan M, Mathew akash P</h4>
+        <h4>For more details contact us : <a href="mailto:vignesh510510@gmail.com">vignesh510510@gmail.com</a></h4>
+        </div>
+       
+
+    </footer>
+
+</body>
+
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myDIV");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+btns[i].addEventListener("click", function() {
+var current = document.getElementsByClassName("active");
+current[0].className = current[0].className.replace(" active", "");
+this.className += " active";
+});
+}
+</script>
+{% endblock %}

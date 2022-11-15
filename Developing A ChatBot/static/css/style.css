@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+  
+}
+
+.wrapper{
+    width: 100%;
+    height: 80px;
+    
+}
+
+header{
+    background: url("../img/back_img.png") ;
+    height: 125vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+   
+}
+ 
+.nav-area{ 
+    float: right;
+    list-style: none;
+    margin-top: 25px;
+    margin-right: 150px;
+}
+
+
+.nav-area li{
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.nav-area li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 5px 25px;
+    border-radius: 15px;
+    font-family:'Arial';
+    font-size: large;
+    font-weight: bolder;
+    background: rgb(255, 194, 39);
+    
+}
+
+.nav-area li a:hover{
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255) ;
+    
+   
+}
+
+.logo img{
+    margin-top: 10px;
+    width: 100px;
+    margin-left: 300px;
+    float: left;
+}
+
+.logo-end img{
+    margin-top: 15px;
+    width: 70px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    float: left;
+}
+
+.welcome-txt{
+    width: 600px;
+    height: 300px;
+    margin: 15% 47.5%;
+    text-align: center;
+}
+
+.welcome-txt h1{
+    text-align: center;
+    color: rgb(250, 205, 58);
+    text-transform:uppercase;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.welcome-txt h1:hover{
+    color: rgb(6, 221, 245) ;
+}
+
+  #contact{
+    border: 1px solid black;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background:rgb(18, 249, 2);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+    #sign{ 
+    border: 1px solid black;
+    padding: 7px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background:rgb(0, 0, 0);
+    border-radius: 20px;
+}
+
+ #sign:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0) ;
+    
+}
+
+footer {
+	position:relative;
+   max-height: 50%;
+	width: 100%;
+    height: 300px;
+	left: 0;
+	bottom: 0;
+	background-color: rgb(250, 203, 14);
+}
+
+ .intro h5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    text-decoration: none;
+    line-height: 30px;
+    
+}
+
+
+.intro h5 a{
+    text-decoration: none;
+    color: rgb(33, 4, 252);
+    font-weight: bold;
+    
+}
+
+#back{
+    background-color: rgb(148, 137, 137);
+    
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px 200px;
+    gap: 20px;
+    background-color: rgb(6, 121, 244);
+    padding: 25px;
+    position: relative;
+    height: 260px;
+    text-align: center;
+  }
+  
+  .grid-container .grid {
+    background-color: white;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+  }
+
+#start{
+    height: 2.5px;
+    background-color: rgb(6, 121, 244);
+}
+
+
+
+
+.job-sign{
+    width: 100%;
+	left: 0;
+    height: 260px;
+	bottom: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+	background-color: rgb(6, 121, 244);
+}
+
+.job-sign h1 {
+    font-size: 37.5px;
+    align-items: center;
+    margin-left: 500px;
+    color: rgb(255, 196, 0);
+}
+#sign-center{
+    border: 0px solid  rgb(6, 121, 244);
+    padding: 12.5px 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    width: 8%;
+    margin-top: 20px;
+    margin-left: 745px;
+    font-weight: bolder;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    background:rgb(251, 202, 4);
+    border-radius: 20px;
+}
+
+ .s-media img{
+    margin-right: 5px;
+    margin-left: 10px;
+    float: left;
+ }
+ 
+ .contri{
+    float: left;
+    margin-left: 450px;
+    margin-top: 30px;
+ }
+ .contri h4, a{
+
+    margin-bottom: 2px;
+    margin-right: 5px;
+    margin-left: 5px;
+   
+ }
+ .contri a{
+    text-decoration: none;
+  
+   
+ }
+ 

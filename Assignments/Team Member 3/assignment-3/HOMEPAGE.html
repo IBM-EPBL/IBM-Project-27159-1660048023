@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    body {
+        background-image: linear-gradient(to right, rgb(229, 255, 0), orange);
+    }
+
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .center {
+        text-align: center;
+    }
+</style>
+
+<body>
+    <div class="center">
+
+        <h2>ASSIGNMENT-3</h2>
+        <b>USING IBM CLOUD-OBJECT-STORAGE</b>
+
+        <p>THE IMAGE WAS DIRECTLY SHOWN FROM IBM CLOUD-OBJECT-STORAGE USING URL LINK </p>
+
+        <h2>FIRST IMAGE </h2>
+
+        <img src="https://mathew-akash.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-1158435316-612x612.jpg"
+            alt="cricket" width="460" height="345">
+
+        <h2>SECOND IMAGE </h2>
+
+        <img src="https://mathew-akash.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-1276613883-612x612.jpg"
+            alt="cricket" width="460" height="345">
+
+
+        <h2>THIRD IMAGE </h2>
+
+        <img src="https://mathew-akash.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-518022060-612x612.jpg"
+            alt="cricket" width="460" height="345">
+
+        <h2>FOURTH IMAGE </h2>
+
+        <img src="https://mathew-akash.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-641856958-612x612.jpg"
+            alt="cricket" width="460" height="345">
+
+        <h2>FIFTH IMAGE </h2>
+
+        <img src="https://mathew-akash.s3.jp-tok.cloud-object-storage.appdomain.cloud/istockphoto-641856978-612x612.jpg"
+            alt="cricket" width="460" height="345">
+
+    </div>
+	
+    <script>
+	
+  window.watsonAssistantChatOptions = {
+    integrationID: "c3733999-04cc-452e-89a7-b3b91701f8e2", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "34002a41-3d66-4c43-811a-135fc69fb57b", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+   </body>
+
+</html>

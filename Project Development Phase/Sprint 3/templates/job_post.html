@@ -1,0 +1,150 @@
+
+{% extends 'base.html' %}
+
+{%  block head %}  
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" integrity="sha256-2XFplPlrFClt0bIdPgpz8H7ojnk10H69xRqd9+uTShA=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="/static/css/profile.css">
+
+	
+	{% endblock %} 
+
+
+    {% block content %}
+	<div class="container">
+        <nav>
+            <div class="navbar">
+                <div class="logo">
+                    <img src="/static/img/job_logo.png" alt="">
+                </div>
+            
+                <li><a href="job_post">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-briefcase-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v1.384l7.614 2.03a1.5 1.5 0 0 0 .772 0L16 5.884V4.5A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5z"/>
+                        <path d="M0 12.5A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5V6.85L8.129 8.947a.5.5 0 0 1-.258 0L0 6.85v5.65z"/>
+                      </svg>
+                      <span class="nav-item">Post Jobs</span>
+                    </a>
+                     </li>
+
+                        <li><a href="view_form">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                              </svg>
+                        <span class="nav-item">view form</span>
+                       </a>
+                        </li>
+
+                        
+       
+
+                    <li><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-gear" viewBox="0 0 16 16">
+                            <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z"/>
+                            <path d="M9.796 1.343c-.527-1.79-3.065-1.79-3.592 0l-.094.319a.873.873 0 0 1-1.255.52l-.292-.16c-1.64-.892-3.433.902-2.54 2.541l.159.292a.873.873 0 0 1-.52 1.255l-.319.094c-1.79.527-1.79 3.065 0 3.592l.319.094a.873.873 0 0 1 .52 1.255l-.16.292c-.892 1.64.901 3.434 2.541 2.54l.292-.159a.873.873 0 0 1 1.255.52l.094.319c.527 1.79 3.065 1.79 3.592 0l.094-.319a.873.873 0 0 1 1.255-.52l.292.16c1.64.893 3.434-.902 2.54-2.541l-.159-.292a.873.873 0 0 1 .52-1.255l.319-.094c1.79-.527 1.79-3.065 0-3.592l-.319-.094a.873.873 0 0 1-.52-1.255l.16-.292c.893-1.64-.902-3.433-2.541-2.54l-.292.159a.873.873 0 0 1-1.255-.52l-.094-.319zm-2.633.283c.246-.835 1.428-.835 1.674 0l.094.319a1.873 1.873 0 0 0 2.693 1.115l.291-.16c.764-.415 1.6.42 1.184 1.185l-.159.292a1.873 1.873 0 0 0 1.116 2.692l.318.094c.835.246.835 1.428 0 1.674l-.319.094a1.873 1.873 0 0 0-1.115 2.693l.16.291c.415.764-.42 1.6-1.185 1.184l-.291-.159a1.873 1.873 0 0 0-2.693 1.116l-.094.318c-.246.835-1.428.835-1.674 0l-.094-.319a1.873 1.873 0 0 0-2.692-1.115l-.292.16c-.764.415-1.6-.42-1.184-1.185l.159-.291A1.873 1.873 0 0 0 1.945 8.93l-.319-.094c-.835-.246-.835-1.428 0-1.674l.319-.094A1.873 1.873 0 0 0 3.06 4.377l-.16-.292c-.415-.764.42-1.6 1.185-1.184l.292.159a1.873 1.873 0 0 0 2.692-1.115l.094-.319z"/>
+                          </svg>
+                    <span class="nav-item">Setting</span>
+                   </a>
+                    </li>
+
+                    <li><a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                            <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"/>
+                          </svg>
+                    <span class="nav-item">Help</span>
+                   </a>
+                    </li>
+
+                    
+                    <li><a href="#" class="logout">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6 3.5a.5.5 0 0 1 .5-.5h8a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-8a.5.5 0 0 1-.5-.5v-2a.5.5 0 0 0-1 0v2A1.5 1.5 0 0 0 6.5 14h8a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-8A1.5 1.5 0 0 0 5 3.5v2a.5.5 0 0 0 1 0v-2z"/>
+                            <path fill-rule="evenodd" d="M11.854 8.354a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5H1.5a.5.5 0 0 0 0 1h8.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3z"/>
+                          </svg>
+                    <span class="nav-item">Log out</span>
+                   </a>
+                    </li>
+                </ul>
+                
+            </div>
+        </nav>
+
+ <section class="main">
+        
+	<div class="main-top">
+		<p> Job Post</p>
+	</div>
+		<br>
+<div class="main-body">
+			<!-- Form START -->
+			<form class="file-upload">
+					
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+				
+					<!-- job detail -->
+					<div class="col-xxl-8 mb-5 mb-xxl-0">
+						<div class="bg-secondary-soft px-4 py-5 rounded">
+							<div class="row g-3">
+								<h2 class="mb-4 mt-0">Post a Job</h2>
+                                <br>
+								<!-- First Name -->
+								<div class="col-md-6">
+									<label class="form-label">Job role:</label>
+									<input type="text" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+                                <br>
+								<!-- Last name -->
+								<div class="col-md-6">
+									<label class="form-label">Job type:</label>
+									<input type="text" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+								<br>
+                                <!-- Last name -->
+								<div class="col-md-6">
+									<label class="form-label">Job location:</label>
+									<input type="text" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+								<br>
+								<!-- Mobile number -->
+								<div class="col-md-6">
+									<label class="form-label">Required skills:</label>
+									<input type="text" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+								<br>
+								<!-- address -->
+								<div class="col-md-6">
+									<label class="form-label">Company name:</label>
+									<input type="text" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+                                <br>
+                                <div class="col-md-6">
+									<label class="form-label">Company email: <address></address> </label>
+									<input type="email" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+                                <br>
+                                <div class="col-md-6">
+									<label class="form-label">Last date to apply: <address></address> </label>
+									<input type="date" class="form-control" placeholder="" aria-label="text" value="">
+								</div>
+								<br>
+								
+								<div class="mt-3">
+								  <button type="submit" class="btn-up1">Submit</button>
+								</div>
+								  
+                                
+								
+								  </div>
+							</div> <!-- Row END -->
+						</div>
+					</div>
+					
+
+			</form> <!-- Form END -->
+		</div>
+	</div>
+</div>
+	</section>
+	
+ {% endblock %}

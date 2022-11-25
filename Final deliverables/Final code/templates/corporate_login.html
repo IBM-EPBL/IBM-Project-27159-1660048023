@@ -1,0 +1,48 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}Login{% endblock %}
+{% block styles %}
+{{super()}}
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+{% endblock %}
+{% block content %}
+<div class="Login-form" style="background-color:rgb(3, 2, 41);">
+  <section class="vh-100">
+  <div class="container-fluid h-custom" style="background-color:rgb(3, 2, 41);">
+    <div class="row d-flex justify-content-center align-items-center h-100" >
+      
+      <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <form  style="margin-top: 220px;" class="form" method="post" action="{{url_for('corporate_login')}}">
+
+          <div class="divider d-flex align-items-center my-4">
+           
+            <h1 style="color: rgb(255, 255, 255);" class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">RECRUITER LOGIN</h1>
+          </div>
+          <div class="form-outline mb-4">
+            <h3 style="color: rgb(255, 255, 255);">Email</h3>
+            <input type="text" id="form3Example3" name="email" class="form-control form-control-lg"
+              placeholder="Enter a valid email address" />
+            
+          </div>
+          <div class="form-outline mb-3">
+            <h3 style="color: rgb(255, 255, 255);">Password</h3>
+            <input type="password" id="form3Example4" name="password" class="form-control form-control-lg"
+              placeholder="Enter password" />
+           
+          </div>
+          <div class="text-center text-lg-start mt-4 pt-2">
+            <input style="color: rgb(255, 255, 255);" type="submit" class="btn btn-primary btn-lg"
+              style="padding-left: 2.5rem; padding-right: 2.5rem;">
+          </div>
+        </form>
+      </div>
+      <div class="col-md-9 col-lg-6 col-xl-5">
+        <img style="margin-top: 220px;" src="/static/images/data-management.svg"
+        class="img-fluid" alt="Sample image" min-height="500px">
+      </div>
+    </div>
+  </div>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e66a43891e.js" crossorigin="anonymous"></script>
+{% endblock %}

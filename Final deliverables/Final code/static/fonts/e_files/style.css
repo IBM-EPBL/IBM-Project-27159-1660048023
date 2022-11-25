@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@600&family=Montserrat:ital,wght@1,900&family=Ubuntu:wght@700&display=swap');
+/* .............................................HOME............................................ */
+#body{
+    font-family: "ubuntu";
+    margin:0px;
+    background-color: #82CD47;
+}
+.navbar{
+background-color: #9BA17B;
+}
+#NAV{
+position:fixed;
+top: 0;
+width: 100%;
+z-index:1;
+opacity: 0.5;
+}
+#meet{
+    font-family: 'Montserrat';
+    font-size:3rem;
+    line-height: 7rem;
+    margin-top:15%;
+    margin-bottom:15%;
+}
+.profile-img{
+color:#fff;
+}
+.AC{
+color:#fff;
+margin-left:30px;
+}
+#title{
+    background-color: #82CD47 ;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+#nav-p{
+    font-family: "El Messiri";
+    font-size:3rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+    font-size: 1.5rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+    font-family: 'ubuntu';
+}
+.Title-image{
+    width: 50%;
+    transform: rotate(20deg);
+    margin-left: 2%;
+}
+h3{
+    font-family: 'Montserrat';
+}
+p{
+    font-family: cursive;
+    color: #8f8f8f;
+}
+.Downloadbtn{
+font-size:24px;
+size:24px;
+}
+#features{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #fff;
+    position: relative;
+}
+.icon{
+    color: #FF9F29;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #82CD47;
+}
+#findjob:hover{
+    color: #82CD47;
+    }
+#linklog:hover{
+color: #82CD47;
+}
+#linkcorp:hover{
+color: #82CD47;
+}
+
+#postjob:hover{
+    color: #82CD47;
+    }
+#postjob{
+margin-left:20px;
+}
+.AC1:hover{
+    color: red;
+    border: 1px solid #ccc;
+}
+.featurebox{
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    font-family: 'El Messiri';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#skill1{
+margin-bottom:10px;
+}
+#skill2{
+margin-bottom:10px;
+}
+#skill3{
+margin-bottom:10px;
+}
+#applyjob-form{
+width:70%
+}
+#applyjob-submit{
+margin-top:50px;
+width:20%
+}
+#testimonials{
+    text-align: center;
+    background-color: #82CD47;
+    color: #fff;
+}
+.testimonials-image{
+    width: 20%;
+    margin: 20px;
+}
+#press{
+    background-color: #82CD47;
+    text-align: center;
+}
+.press-img{
+    width: 15%;
+    padding: 20px 20px 50px;
+    margin:30px;
+
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.card{
+    max-width: 25rem;
+    margin: 10%;
+}
+#pricing {
+    text-align: center;
+    padding: 5px;
+    margin: 10%;
+}
+.cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #fff;
+}
+
+.end-text{
+    margin: 10%;
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+@media (max-width: 1031px){
+    #title{
+        text-align: center;
+    }
+    .Title-image{
+        position: static;
+        width: 60%;
+        transform: rotate(0deg);
+    }
+}
+#footer{
+    text-align: center;
+    margin: 5%;
+}
+.footer-img{
+    padding: 1%;
+}
+/* .............................................HOME............................................ */
+/* .............................................LOGIN............................................ */
+.Login-form{
+margin-top:10%;
+}
+#register{
+width:50%;
+margin:20%
+}
+-------------------------------------------------------------------------------------
+#postjb{
+margin-top:30%;
+}
+#idid{
+margin-top:18%;
+width:30%;
+margin-left:35%;
+border-style: solid;
+padding:50px;
+border-radius:10%
+}
+
+#applyjob {
+padding: 2rem 0;
+ margin-top:10%;
+ width:100%;
+ }

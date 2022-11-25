@@ -1,0 +1,306 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background: rgb(223, 223, 223);
+}
+
+.container{
+    display: flex;
+    width: 1200px;
+   
+
+}
+nav{
+    position: sticky;
+    top:0;
+    left: 0;
+    bottom: 0;
+    width: 360px;
+    height: 100vh;
+    background: rgb(255, 255, 255);
+
+}
+.navbar{
+    width: 80%;
+    margin: 0 auto;
+
+}
+.logo{
+    margin: 2rem 0 1rem 0;
+    padding-bottom: 3rem;
+    display: flex;
+    align-items: center;
+   
+
+}
+.logo img{
+    width: 95px;
+    height: 65px;
+    margin-left: 60px;
+}
+
+
+
+ul{
+    margin: 0 auto;
+}
+
+li{
+  padding-bottom: 2rem;
+  margin-left: 30px;
+}
+
+li a{
+    font-size: 17px;
+    color: rgb(98, 95, 95);
+    font-weight:500;
+    
+}
+.nav-item{
+       margin:0;
+}
+nav svg{
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+
+}
+
+.logout{
+    position: absolute;
+    bottom: 20px;
+}
+
+/* Main section*/
+.main{
+    width: 100%;
+}
+
+.main-top{
+    width: 125%;
+    margin-left: 20px;
+    margin-top: 5px;
+    background: rgb(0, 0, 0);
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+
+.main-body{
+    padding: 10px 10px 10px 20px;
+}
+
+h1{
+    margin: 20px 10px;
+
+}
+h3{
+    margin: 20px 10px; 
+}
+
+.search_bar{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+ 
+}
+.search_bar input{
+    width: 50%;
+    padding: 10px;
+    border: 1px solid rgb(190, 190, 190);
+}
+.search_bar input:focus{
+   border: 1px solid rgb(237, 160, 6);
+
+}
+
+.search_bar select{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+    margin-left: 2rem;
+
+}
+    
+.search_bar .filter{
+  width: 300px;
+}
+
+.tags_bar{
+    width: 55%;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.tag{
+    background: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.tag svg{
+    margin-right: 0rem;
+}
+
+.row{
+    display: flex;
+    padding: 15px;
+    margin-top: 1.3rem;
+   justify-content: space-between;
+}
+
+.row p{
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+
+}
+
+.row p span{
+    color: rgb(0, 47, 255);
+}
+
+.job_card{
+    width: 100%;
+    padding: 15px;
+    cursor: pointer;
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    margin-bottom: 15px;
+    justify-content: space-between;
+    border: 1px solid rgb(190, 190, 190);
+    box-shadow: 0 20px 30px rgb(181, 175, 175);
+    margin-left: 20px;
+}
+
+.job_details{
+    display: flex;
+}
+
+.job_details .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-thumbnail{
+    width: 130px;
+    height: 130px;
+    font-size: 3rem;
+    margin-left: 1rem;
+    margin-right: 5px;
+    margin-bottom: 40px;
+    padding: 10px;
+} 
+
+.job_details .text{
+    margin-left: 2.3rem;
+}
+
+.job_details .text span{
+    color: rgb(116,112,112);
+
+}
+
+.job_salary{
+    text-align: right;
+    color: rgb(54, 54, 54);
+}
+
+.job_card:active{
+    border: 2px solid rgb(255, 188, 3);
+    transition: 0.4s;
+}
+
+#btn { 
+   background-color: rgb(0, 255, 0);
+   color: rgb(0, 0, 0);
+   border-radius: 5px;
+   padding: 5px 10px;
+   font-size: 15px;
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+.card-img-top{
+   margin-left: 50px;
+   margin-bottom: 20px;
+   border: 2px solid black;
+}
+
+.btn-primary{
+    background-color: #05ae0e;
+    margin-top: 15px;
+    margin-left: 160px;
+    margin-bottom: 30px;
+    padding: 5px 5px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+.card-content{
+    background-color: #fff;
+    width: 50%;
+    
+}
+#no-1{
+    align-items: center;
+    width: 400px;
+    height: 260px;
+    margin-left: 20px;
+    border: 2px solid rgb(255, 208, 0);
+   
+}
+
+#c-text1{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+#c-text2{
+    margin-left: 110px;
+    margin-bottom: 20px;
+}
+
+#n1{
+    margin-left: 100px;
+}
+
+
+#n2{
+    margin-left: 100px;
+}
+.card-title{
+    align-items: center;
+}
+
+.search-new{
+    display: flex;
+   margin-left: 10px;
+    background-color: #fff;
+    width: 100%;
+    height: 400px;
+   
+
+ 
+}

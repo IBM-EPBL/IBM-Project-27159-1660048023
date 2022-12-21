@@ -53,7 +53,7 @@ Download and Run Our Project source code, by clicking Code icon in our Repositor
 Then you can deploy that source code in Visual studio (or) copy the below commands and run it in Terminal or Cmd. 
 
 ```
-git clone https://github.com/vicky-510/Portofolio-Website.git
+git clone  https://github.com/IBM-EPBL/IBM-Project-27159-1660048023.git
 
 ```
 
